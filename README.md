@@ -2,11 +2,10 @@
 Repósitorio de estudos/pesquisas em linguagens e tecnologias de programação.
 
 
-## linguagens
+## Linguagens
 ### python
 ### php
 ### javaScript
 
-## tecnologias/frameworks
 
-## leituras recomendadas
+
