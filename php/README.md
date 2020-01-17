@@ -19,7 +19,6 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
   - Strings: palavra ou frase entre aspas simples ou duplas, assim como também pode ser binário, como o conteúdo de um arquivo MP3 ou JPG. 
 
 * conversão de tipos:
- 
  '''
 	 <?php
 	  $var = 100;
