@@ -1,4 +1,8 @@
-/* Estudos realizados na disciplina de banco de dados 1 do curso de Sistemas de Informação do Instituto federal do espirito santo */
+/* 
+Estudos realizados na disciplina de banco de dados 1 do curso de Sistemas de Informação do Instituto federal do espirito santo.
+Criação de um banco de dados de eventos punk/hardcore e marketplace de bandas independentes.
+PROJETO PESSOAL EM ANDAMENTO.
+*/
 
 create database punxBay
 default character set utf8
