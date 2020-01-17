@@ -24,7 +24,7 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
   
 * arrays:
  
- Um array que mantém uma série de elementos que podem ter diferentes tipos.
+  Um array que mantém uma série de elementos que podem ter diferentes tipos.
 
 * classe: 
 
