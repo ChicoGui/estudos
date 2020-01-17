@@ -3,7 +3,7 @@ Repósitorio de estudos
 
 
 ## Linguagens
-### python
+### [python](/estudos/blob/master/README.md)
 ### php
 ### javaScript
 
