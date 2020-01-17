@@ -3,7 +3,7 @@ Repósitorio de estudos
 
 
 ## Linguagens
-### [python](/blob/master/python/READEME.md)
+### [python](../blob/master/python/READEME.md)
 ### php
 ### javaScript
 
