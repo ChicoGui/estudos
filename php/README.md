@@ -19,17 +19,17 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
   - Strings: palavra ou frase entre aspas simples ou duplas, assim como também pode ser binário, como o conteúdo de um arquivo MP3 ou JPG. 
 
 * conversão de tipos:
- '''
+ 
+	'''
 	 <?php
 	  $var = 100;
-	  $type_casting = (bool) $var; // torna – se booleano
-	  $type_casting = (int) $var; // torna – se inteiro
-	  $type_casting = (float) $var; // torna – se float
-	  $type_casting = (string) $var; // torna – se string
-	  $type_casting = (array) $var; // torna – se array
-	  echo $type_casting = (bool)$var; // 1
+	  $type_casting = (bool) $nome_variavel; // converter para booleano
+	  $type_casting = (int) $nome_variavel; // converter para  inteiro
+	  $type_casting = (float) $nome_variavel; // converter para  float
+	  $type_casting = (string) $nome_variavel; // converter para  string
+	  $type_casting = (array) $nome_variavel; //converter para  array
 	?>
- '''
+	'''
 
 * constantes:
 
