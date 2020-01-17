@@ -82,7 +82,7 @@ def soma_diagonal_principal(matriz, qtdLInha, qtdColuna):
 	else:
 		return 0
 
-#função para a soma da diagonal principal		
+#função para a soma da diagonal secundaria		
 def soma_diagonal_secundaria(matriz, qtdLInha, qtdColuna):
 	if matriz_quadrada(matriz, qtdLInha, qtdColuna):
 		soma = 0
@@ -107,50 +107,50 @@ def soma_matriz_triangular_inferior(matriz, qtdLInha, qtdColuna):
 		return 0
 		
 def main():	
-	linha = int(input("digite a quantidade de linhas: ")) #recebe a quantidade de linha
-	coluna = int(input("digite a quantidade de colunas: ")) #recebe a quantidade de colunas
+	linha = int(input("digite a quantidade de linhas: ")) 
+	coluna = int(input("digite a quantidade de colunas: ")) 
 
-	novaMatriz = cria_matriz(linha, coluna) #criando nova matriz
+	novaMatriz = cria_matriz(linha, coluna) 
 	
-	somaLinha, somaColuna = soma(novaMatriz, linha, coluna) #somando as linhas e colunas da matriz
+	somaLinha, somaColuna = soma(novaMatriz, linha, coluna)
 
 	
-	novaMatriz_transposta = transposta(novaMatriz, linha, coluna) #criando uma matriz transposta da novaMatriz criada
+	novaMatriz_transposta = transposta(novaMatriz, linha, coluna)
 	print("\n------------- MATRIZ -------------")	
-	imprimeMatriz(novaMatriz, linha, coluna) #imprimindo a NOva matriz
+	imprimeMatriz(novaMatriz, linha, coluna)
 
 
 	print("\n------------- SOMA LINHA -------------")
-	print(somaLinha) #imprimindo uma lista com a soma das linhas da matriz criada 
+	print(somaLinha) 
 	
 	print("\n------------- SOMA COLUNA -------------")
-	print(somaColuna) #imprimindo a soma das colunas com a matriz criada
+	print(somaColuna)
 	
 	print("\n------------- MATRIZ TRANSPOSTA -------------")
-	imprimeMatriz(novaMatriz_transposta, linha, coluna) #imprimindo a matriz transposta
+	imprimeMatriz(novaMatriz_transposta, linha, coluna)
 	print("-------------")
-	matriz_quadrada(novaMatriz, linha, coluna) #checando se a matriz é quadrada
+	matriz_quadrada(novaMatriz, linha, coluna) 
 	if matriz_quadrada(novaMatriz, linha, coluna): 
-		print("A matriz é quadrada") #se for quadrada imprime isso
+		print("A matriz é quadrada")
 	else:
-		print("Não é uma matriz quadrada") #se não for imprime isso
+		print("Não é uma matriz quadrada")
 	print("\n------------- ")
-	matriz_identidade(novaMatriz, linha, coluna) #checando se a matriz é identidade
+	matriz_identidade(novaMatriz, linha, coluna)
 	if matriz_identidade(novaMatriz, linha, coluna): 
-		print("É uma matriz identidade") #se for identidade imprime isso
+		print("É uma matriz identidade") 
 	else:
-		print("Não é uma matriz identidade") #se não for identidade imprime isso
+		print("Não é uma matriz identidade")
 		
-	soma_diagonal_1 = soma_diagonal_principal(novaMatriz, linha, coluna) #calculando a soma da diagonal principal
+	soma_diagonal_1 = soma_diagonal_principal(novaMatriz, linha, coluna) 
 	print("\n------------- SOMA MATRIZ DIAGONAL PRINCIPAL -------------")
-	print (soma_diagonal_1) #imprime resultado da soma se existir
+	print (soma_diagonal_1) 
 
 	
-	soma_diagonal_2 = soma_diagonal_secundaria(novaMatriz, linha, coluna) # calculando a soma da diagonal secundária	
+	soma_diagonal_2 = soma_diagonal_secundaria(novaMatriz, linha, coluna) 	
 	print("\n------------- SOMA MATRIZ DIAGONAL SECUNDARIA -------------")
-	print (soma_diagonal_2)	#imprime resultado da diagonal secundária se existir
-
-	soma_matriz_triangular = soma_matriz_triangular_inferior(novaMatriz, linha, coluna) #somando a matriz triangular inferios
+	print (soma_diagonal_2)
+	
+	soma_matriz_triangular = soma_matriz_triangular_inferior(novaMatriz, linha, coluna) 
 	print("\n------------- SOMA MATRIZ TRIANGULAR INFERIOR -------------")
 	print (soma_matriz_triangular)
 
