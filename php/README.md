@@ -4,12 +4,19 @@
 Linguagem de proramação para criar sites/aplicações web dinâmicas.
 
 * variáveis:
+
 Utiliza-se o sinal de cifrão para criar uma variável que pode armazenar textos e números. PHP é case sensitive, então A é diferente de a.
   - Não inicie o nome de uma variável com números;
   - Não utilize espaços em brancos;
   - Não utilize caracteres especiais, somente underline;
   - Crie variáveis com nomes que ajudarão a identificar melhor a mesma;
   - Evite utilizar letras maiúsculas.
+  
+* tipos de variáveis:
+  - Booleanos: simples, pois só pode expressar apenas dois valores: TRUE (1) ou FALSE (0, null ou uma string vazia);
+  - Integer: número inteiro negativo ou positivo;
+  - Float ou double: números reais representados com um ponto para separar casas decimais;
+  - Strings: palavra ou frase entre aspas simples ou duplas, assim como também pode ser binário, como o conteúdo de um arquivo MP3 ou JPG. 
 
 * operadores lógicos:
   - $a == $b - igual;
