@@ -22,7 +22,7 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
  
 ```
 <?php
-	$var = 100;
+	$nome_variável = 10;
 	$type_casting = (bool) $nome_variavel; // converter para booleano
 	$type_casting = (int) $nome_variavel; // converter para  inteiro
 	$type_casting = (float) $nome_variavel; // converter para  float
