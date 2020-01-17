@@ -3,7 +3,7 @@ Repósitorio de estudos
 
 
 ## Linguagens
-### [python](../python/READEME.md)
+### [python](../python)
 ### php
 ### javaScript
 
