@@ -15,5 +15,13 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
   - none type;
   - string;
 
+* condicionais
+
+	em Python não se faz necessário utilizar chaves {} para iniciar e finalizar um bloco de instruções, uma identação correta já é suficiente;
+
+* funções:
+
+  - Recursividade de uma função basicamente é a definição de uma sub-rotina, seja ela função ou método, que tem a capacidade de invocar a si mesmo
+
 
 
