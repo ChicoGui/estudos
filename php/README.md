@@ -16,7 +16,7 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
   - Float ou double: números reais representados com um ponto para separar casas decimais;
   - Strings: palavra ou frase entre aspas simples ou duplas, assim como também pode ser binário, como o conteúdo de um arquivo MP3 ou JPG. 
 
-* convbersão de tipos:
+* conversão de tipos:
  
 ```
 <?php
