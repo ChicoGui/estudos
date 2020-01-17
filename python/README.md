@@ -14,21 +14,7 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
   - bool;
   - none type;
   - string;
-
-* conversão de tipos:
- 
- '''
- <?php
-  $var = 100;
-  $type_casting = (bool) $var; // torna – se booleano
-  $type_casting = (int) $var; // torna – se inteiro
-  $type_casting = (float) $var; // torna – se float
-  $type_casting = (string) $var; // torna – se string
-  $type_casting = (array) $var; // torna – se array
-  echo $type_casting = (bool)$var; // 1
-?>
-'''
-
+  
 * condicionais
 
 	em Python não se faz necessário utilizar chaves {} para iniciar e finalizar um bloco de instruções, uma identação correta já é suficiente.

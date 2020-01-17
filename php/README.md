@@ -18,6 +18,20 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
   - Float ou double: números reais representados com um ponto para separar casas decimais;
   - Strings: palavra ou frase entre aspas simples ou duplas, assim como também pode ser binário, como o conteúdo de um arquivo MP3 ou JPG. 
 
+* conversão de tipos:
+ 
+ '''
+	 <?php
+	  $var = 100;
+	  $type_casting = (bool) $var; // torna – se booleano
+	  $type_casting = (int) $var; // torna – se inteiro
+	  $type_casting = (float) $var; // torna – se float
+	  $type_casting = (string) $var; // torna – se string
+	  $type_casting = (array) $var; // torna – se array
+	  echo $type_casting = (bool)$var; // 1
+	?>
+ '''
+
 * constantes:
 
   O valor de uma constante jamais poderá ser alterado enquanto estiver sendo executada e para defini-la utilizamos a função define() ou const.
