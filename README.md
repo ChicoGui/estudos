@@ -1,5 +1,5 @@
 # estudos
-Repósitorio de estudos/pesquisas em linguagens e tecnologias de programação.
+Repósitorio de estudos
 
 
 ## Linguagens
