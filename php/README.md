@@ -1,5 +1,5 @@
 # PHP
-## anotações e estudos
+## anotações, referência para estudos;
 
 Linguagem de proramação para criar sites/aplicações web dinâmicas.
 
