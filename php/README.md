@@ -20,16 +20,17 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
 
 * conversão de tipos:
  
-	'''
-	 <?php
-	  $var = 100;
-	  $type_casting = (bool) $nome_variavel; // converter para booleano
-	  $type_casting = (int) $nome_variavel; // converter para  inteiro
-	  $type_casting = (float) $nome_variavel; // converter para  float
-	  $type_casting = (string) $nome_variavel; // converter para  string
-	  $type_casting = (array) $nome_variavel; //converter para  array
-	?>
-	'''
+```
+<?php
+	$var = 100;
+	$type_casting = (bool) $nome_variavel; // converter para booleano
+	$type_casting = (int) $nome_variavel; // converter para  inteiro
+	$type_casting = (float) $nome_variavel; // converter para  float
+	$type_casting = (string) $nome_variavel; // converter para  string
+	$type_casting = (array) $nome_variavel; //converter para  array
+?>
+```
+	
 
 * constantes:
 
