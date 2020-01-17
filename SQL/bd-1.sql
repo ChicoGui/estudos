@@ -1,3 +1,5 @@
+/* Estudos realizados na disciplina de banco de dados 1 do curso de Sistemas de Informação do Instituto federal do espirito santo */
+
 create database punxBay
 default character set utf8
 default collate utf8_general_ci;
