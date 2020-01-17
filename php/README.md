@@ -28,11 +28,11 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
 
 * classe: 
 
-  modelo para representar algo no mundo real;
+  modelo para representar algo no mundo real.
   
 * encapsulamento: 
 
-  o objeto é capaz de carregar consigo não só dados, mas também funcionalidades
+  o objeto é capaz de carregar consigo não só dados, mas também funcionalidades.
   
 * operadores:
   - $a == $b - igual;

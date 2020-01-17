@@ -5,7 +5,7 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
 
 * variáveis:
   
-  O conceito de variável é representado sempre por um objeto, em python tudo é objeto, e toda variável é uma referência. As variáveis armazenam endereços de memória e não os valores. em Python uma variável não tem um tipo fixo, mas sim apenas o tipo do conteúdo
+  O conceito de variável é representado sempre por um objeto, em python tudo é objeto, e toda variável é uma referência. As variáveis armazenam endereços de memória e não os valores. em Python uma variável não tem um tipo fixo, mas sim apenas o tipo do conteúdo.
   
 * tipos de dados:
   - inteiro: 
@@ -17,7 +17,7 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
 
 * condicionais
 
-	em Python não se faz necessário utilizar chaves {} para iniciar e finalizar um bloco de instruções, uma identação correta já é suficiente;
+	em Python não se faz necessário utilizar chaves {} para iniciar e finalizar um bloco de instruções, uma identação correta já é suficiente.
 
 * funções:
 
