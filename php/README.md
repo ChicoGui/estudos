@@ -4,6 +4,7 @@
 Linguagem de proramação para criar sites/aplicações web dinâmicas.
 
 * variáveis:
+  
   Utiliza-se o sinal de cifrão para criar uma variável que pode armazenar textos e números. PHP é case sensitive, então A é diferente de a.
   - Não inicie o nome de uma variável com números;
   - Não utilize espaços em brancos;
