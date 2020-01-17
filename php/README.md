@@ -18,6 +18,22 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
   - Float ou double: números reais representados com um ponto para separar casas decimais;
   - Strings: palavra ou frase entre aspas simples ou duplas, assim como também pode ser binário, como o conteúdo de um arquivo MP3 ou JPG. 
 
+* constantes:
+
+  O valor de uma constante jamais poderá ser alterado enquanto estiver sendo executada e para defini-la utilizamos a função define() ou const.
+  
+* arrays:
+ 
+ Um array que mantém uma série de elementos que podem ter diferentes tipos.
+
+* classe: 
+
+  modelo para representar algo no mundo real;
+  
+* encapsulamento: 
+
+  o objeto é capaz de carregar consigo não só dados, mas também funcionalidades
+  
 * operadores lógicos:
   - $a == $b - igual;
   - $a === $b - idêntico e mesmo tipo;
@@ -28,6 +44,4 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
   - $a <= $b - menor ou igual;
   - $a >= $b - maior ou igual;
 
-* programação orientada a objetos
-  - classe: modelo para representar algo no mundo real;
-  - encapsulamento: o objeto é capaz de carregar consigo não só dados, mas também funcionalidades
+
