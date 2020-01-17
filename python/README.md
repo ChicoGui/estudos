@@ -21,7 +21,12 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
 
 * funções:
 
-  - Recursividade de uma função basicamente é a definição de uma sub-rotina, seja ela função ou método, que tem a capacidade de invocar a si mesmo
+  - Recursividade de uma função basicamente é a definição de uma sub-rotina, seja ela função ou método, que tem a capacidade de invocar a si mesmo.
+
+* operadores:
+  - aritiméticos: +, -, * / ou // (parte inteira); %, +=, -=, * =, /=~, 
+  - comparação: ==, !=, >, <, >=, <=, in, in not
+  - lógicos: and, or, not 
 
 
 

@@ -34,7 +34,7 @@ Linguagem de proramação para criar sites/aplicações web dinâmicas.
 
   o objeto é capaz de carregar consigo não só dados, mas também funcionalidades
   
-* operadores lógicos:
+* operadores:
   - $a == $b - igual;
   - $a === $b - idêntico e mesmo tipo;
   - $a != $b ou $a <> $b - diferente;
