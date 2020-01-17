@@ -250,7 +250,6 @@ VALUES
 INSERT INTO bairro(nome) 
 VALUES 
 ('centro'),
-('jucutuquara'),
 ('conqueiral de itaparica'),
 ('laranjeiras'),
 ('itacibá'),
@@ -446,7 +445,6 @@ on endereco.fk_id_cidade = cidade.id_cidade
 inner join estado
 on endereco.fk_id_estado = estado.id_estado;
 
-/* Lista todos os produtos cadastrados, seus detalhes, o nome da banquinha que está cadastrado e a quantidade inicial cadastrada e o valor de cada unidade*/
 SELECT produto.nome_produto as "item", tipo_produto.descricao_tipo_produto as "categoria de produto", produto.descricao_produto as "Detalhes", banquinha.nome as "cadastrado em", produto.quantidade_produto as "quantidade cadastrada", produto.valor_produto as "valor unidade"
 FROM produto 
 inner join tipo_produto
@@ -454,7 +452,6 @@ on produto.fk_id_tipo_produto = tipo_produto.id_tipo_produto
 INNER JOIN banquinha 
 ON produto.fk_id_banquinha = banquinha.id_banquinha;
 
-/*lista todos os item pedidos, exibindo o códido do pedido, o item e seus detalhes, valor unitário, quantidade solicitada e valor total*/
 SELECT pedido.id_pedido, DATE_FORMAT( pedido.data_pedido, "%d/%m/%Y" ) AS "realizado em",produto.nome_produto as "item pedido", produto.descricao_produto as "Detalhes", item_pedido.quantidade as "quantidade", produto.valor_produto as 'valor unitário', (produto.valor_produto * QUANTIDADE) as "valor total"
 FROM produto
 INNER JOIN item_pedido
@@ -462,7 +459,6 @@ ON item_pedido.fk_id_produto = produto.id_produto
 INNER JOIN pedido 
 ON pedido.id_pedido = item_pedido.fk_id_pedido;
 
-/*lista todos os item pedidos referentes a um pedido específico, neste casao com o pedido de id 1, exibindo o códido do pedido, o item e seus detalhes, valor unitário, quantidade solicitada e valor total*/
 SELECT pedido.id_pedido, DATE_FORMAT( pedido.data_pedido, "%d/%m/%Y" ) AS "realizado em",produto.nome_produto as "item pedido", produto.descricao_produto as "Detalhes", item_pedido.quantidade as "quantidade", produto.valor_produto as 'valor unitário', (produto.valor_produto * QUANTIDADE) as "valor total"
 FROM produto
 INNER JOIN item_pedido
@@ -470,7 +466,6 @@ ON item_pedido.fk_id_produto = produto.id_produto
 INNER JOIN pedido 
 ON pedido.id_pedido = item_pedido.fk_id_pedido;
 
-/*lista todos os item pedidos referentes a um pedido específico, neste casao com o pedido de id 1, exibindo o códido do pedido, o item e seus detalhes, valor unitário, quantidade solicitada e valor total, neste caso exibindo referente ao pedido de id 2*/
 SELECT pedido.id_pedido as "Nº do pedido", DATE_FORMAT( pedido.data_pedido, "%d/%m/%Y" ) AS "realizado em",produto.nome_produto as "item pedido", produto.descricao_produto as "Detalhes", item_pedido.quantidade as "quantidade", produto.valor_produto as 'valor unitário', (produto.valor_produto * QUANTIDADE) as "valor total"
 FROM produto
 INNER JOIN item_pedido
@@ -479,7 +474,6 @@ INNER JOIN pedido
 ON pedido.id_pedido = item_pedido.fk_id_pedido
 where pedido.id_pedido = '2';
 
-/*Exibe o número do pedido, nome do usuário e o valor total do pedido, neste caso exibindo referente ao pedido de id 2*/
 SELECT pedido.id_pedido as "Nº do pedido", DATE_FORMAT( pedido.data_pedido, "%d/%m/%Y" ) AS "realizado em", usuario.nome as "Cliente", sum( (produto.valor_produto * QUANTIDADE)) as "valor total"
 FROM produto
 INNER JOIN item_pedido
