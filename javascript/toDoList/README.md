@@ -1,6 +1,9 @@
-# aplicação simples to-do List;
+# aplicação to-do List;
 
-estudo de javascript criando uma aplicação básica de inserir e remover tarefas.
+Estudo de javascript em andamento. 
+
+Criação uma aplicação de agendamento de tarefas/compromissos.
+
 
 
 
