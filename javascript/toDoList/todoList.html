@@ -1,81 +1,63 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    	<link rel="stylesheet" href="estilo.css">
+
+		<title>toddo List</title>
 
 	</head>
 
 	<body>
 
+		<nav class="navbar">
+  			<a class="navbar-brand" href="#">
+    			<img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+    			app_logo
+ 			</a>
+		</nav>
 
-		<div id="app">
-			<ul>
+		
 
-			</ul>
-
-			<input type="text" placeholder="Digite uma tarefa">
-			<button> BOTÃO </button>
-
-		</div>
-
-		<script>
-			var listElement = document.querySelector('#app ul');
-			var inputElement = document.querySelector('#app input');
-			var buttonElement = document.querySelector('#app button');
-
-			var todos = JSON.parse(localStorage.getItem('list_todos'));
-
-			function renderTodos() {
-
-				listElement.innerHTML = '';
-
-				for (todo of todos) {
-					var todoElement = document.createElement('li');
-					var todoText = document.createTextNode(todo);
-
-					var linkElement = document.createElement('a');
-					linkElement.setAttribute('href', '#');
-
-					var pos = todos.indexOf(todo);
-					linkElement.setAttribute('onclick', 'deleteTodo(' + pos + ')');
-
-					
-
-					var linkText = document.createTextNode('Excluir');
-
-					linkElement.appendChild(linkText);
-
-					todoElement.appendChild(todoText);
-					todoElement.appendChild(linkElement);
-
-					listElement.appendChild(todoElement);
-				}
-			}
-
-			renderTodos()
-
-			function addTodo() {
-				var todoText = inputElement.value;
-
-				todos.push(todoText);
-				inputElement.value = '';
-				renderTodos();
-				saveToStorage();
-			}
-
-			buttonElement.onclick = addTodo;
-
-			function deleteTodo(pos) {
-				todos.splice(pos, 1);
-				renderTodos();
-				saveToStorage();
-			}
-
-			function saveToStorage(){
-				localStorage.setItem('list_todos', JSON.stringify(todos));
-			}
+		<div class="container">
 			
 
-		</script>
+			<div id="app">
+
+				<h3>atividades</h3>
+
+				<ol>
+
+				</ol>
+
+				<div class="input-group mb-3">
+  					<input class="form-control" type="text" placeholder="Digite uma tarefa" aria-label="Recipient's username" aria-describedby="button-addon2">
+					  <div class="input-group-append">
+					  	<button class="btn btn-primary" type="submit"> adicionar</button>
+					  </div>
+				</div>
+
+				
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				desenvolvido por <a href="http://github.com/chicogui"> ChicoGui</a> - 2020
+			</div>
+		</footer>
 		
+	
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="js_functions.js"></script>
+
 	</body>
 
 
