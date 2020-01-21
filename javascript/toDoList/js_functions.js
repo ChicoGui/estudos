@@ -15,13 +15,14 @@
 
 					var linkElement = document.createElement('a');
 					linkElement.setAttribute('href', '#');
+					linkElement.setAttribute('class', 'excluir_tarefa');
 
 					var pos = tarefas.indexOf(tarefa);
 					linkElement.setAttribute('onclick', 'deleteTodo(' + pos + ')');
 
 					
 
-					var linkText = document.createTextNode(' Excluir');
+					var linkText = document.createTextNode('Excluir');
 
 					linkElement.appendChild(linkText);
 
