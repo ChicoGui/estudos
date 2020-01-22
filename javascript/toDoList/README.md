@@ -2,8 +2,7 @@
 
 Estudo em andamento. 
 
-Criação uma aplicação de agendamento de tarefas/compromissos utilizando bootstrap + Javascript. 
-
+criando uma aplicação "to do list" simples utilizando bootstrap + Javascript.
 
 
 

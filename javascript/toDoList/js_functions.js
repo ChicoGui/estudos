@@ -8,14 +8,16 @@
 			function renderTodos() {
 
 				listElement.innerHTML = '';
+				
 
 				for (tarefa of tarefas) {
 					var todoElement = document.createElement('li');
 					var todoText = document.createTextNode(tarefa);
+					
 
 					var linkElement = document.createElement('a');
 					linkElement.setAttribute('href', '#');
-					linkElement.setAttribute('class', 'excluir_tarefa');
+					linkElement.setAttribute('class', 'btn btn-outline-danger');
 
 					var pos = tarefas.indexOf(tarefa);
 					linkElement.setAttribute('onclick', 'deleteTodo(' + pos + ')');
@@ -31,6 +33,9 @@
 
 					listElement.appendChild(todoElement);
 				}
+
+				
+
 			}
 
 			renderTodos()

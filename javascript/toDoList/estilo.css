@@ -1,7 +1,12 @@
 nav, footer{background-color: #f2f2f2}
 
-.excluir_tarefa{
-	color: red;
+#app li {
+    border-bottom: solid 1px #dadada;
+    padding: 10px;
+}
+
+#app a.btn.btn-outline-danger {
+    margin-left: 10px;
 }
 
 footer{
