@@ -5,8 +5,12 @@ nav, footer{background-color: #f2f2f2}
     padding: 10px;
 }
 
-#app a.btn.btn-outline-danger {
+#app a.excluir_tarefa, #app a.arquivar_tarefa {
     margin-left: 10px;
+}
+
+.arquivado{
+	color: pink;
 }
 
 footer{
