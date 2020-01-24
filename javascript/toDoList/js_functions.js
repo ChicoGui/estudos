@@ -21,7 +21,7 @@
 					remover_tarefa.setAttribute('class', 'btn btn-outline-danger excluir_tarefa');
 
 
-					var arquivar_tarefa = document.createElement('a');
+					var arquivar_tarefa = document.createElement('button');
 					arquivar_tarefa.setAttribute('href', '#');
 					arquivar_tarefa.setAttribute('class', 'btn btn-outline-success arquivar_tarefa');
 
@@ -67,15 +67,18 @@
 			function deleteTodo(pos) {
 				alert("esta tarefa será exluida");
 				tarefas.splice(pos, 1);
-				renderTodos();
+				renderTodos()
+				
 				saveToStorage();
+				
 			}
 
 			function arquivarTodo(pos) {
-				alert("esta tarefa será arquivada");
-
+				alert("esta tarefa será arquivada");			
 				
-			}
+
+			  }
+								
 
 			function saveToStorage(){
 				localStorage.setItem('list_todos', JSON.stringify(tarefas));
