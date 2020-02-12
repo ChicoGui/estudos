@@ -74,8 +74,7 @@
 			}
 
 			function arquivarTodo(pos) {
-				alert("esta tarefa será arquivada");			
-				
+				alert("esta tarefa será arquivada");
 
 			  }
 								
